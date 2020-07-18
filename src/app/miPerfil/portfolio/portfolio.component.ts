@@ -12,14 +12,16 @@ export class PortfolioComponent implements OnInit {
   fruits: { visible: boolean; name: string; color: string; }[];
   size = 27;
   // Data: {Nombre: string; Sexo: string; estadoCivil: string; Cedula: string; telefono: string;}[];
+  infoExtractor: any;
   
   constructor(private activatedRoute: ActivatedRoute) { 
     
   }
 
   ngOnInit(): void {
-    this.activatedRoute.queryParamMap.subscribe((Data)=>{
+    this.activatedRoute.queryParams.subscribe((Data)=>{
       console.log(Data)
+      this.infoExtractor = Data;
     })
 
     // this.fruits = [

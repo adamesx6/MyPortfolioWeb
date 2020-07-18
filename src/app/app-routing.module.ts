@@ -15,7 +15,7 @@ const routes: Routes = [
   {path: '', component: HomeComponent},
   {path: 'Studies', component: StudiesComponent},
   {path: 'Experience', component: ExperienceComponent},
-  {path: 'Portfolio/:Nombre/:Sexo/:estadoCivil/:Cedula/:Telefono', component: PortfolioComponent},
+  {path: 'Portafolio', component: PortfolioComponent},
   {path: 'contactMe', component: ContactMeComponent},
   {path: 'Skills', component: SkillsComponent}
   
