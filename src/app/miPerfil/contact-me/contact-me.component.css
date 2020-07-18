@@ -1,0 +1,53 @@
+.ico{
+    width: 220px;
+    height: 220px;
+}
+
+.redes img{
+    margin-left: 20pt;
+}
+
+#contactMe{
+   
+    text-align: center;
+}
+button{ 
+    background-color:  rgb(27, 148, 218);
+    color: white;
+}
+
+@media (min-width:300px) and (max-width:700px)  {
+    .ico{
+        width: 100px;
+        height: 100px;
+    }
+    
+    .redes img{
+        margin-left: 20pt;
+    }
+    
+    #contactMe{ 
+        text-align: center;
+        font-size: 22pt;
+        margin-bottom: 2.4rem;
+    }
+    
+  }
+
+
+@media (min-width:300px) and (max-width:700px) and (orientation: landscape)  {
+    .ico{
+        width: 150px;
+        height: 150px;
+    }
+    
+    .redes img{
+        margin-left: 20pt;
+    }
+    
+    #contactMe{ 
+        text-align: center;
+        font-size: 22pt;
+        margin-bottom: 2.4rem;
+    }
+}

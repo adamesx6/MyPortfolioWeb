@@ -1,0 +1,25 @@
+.miNombre{
+    font-size: 18pt;
+    margin-right: 70px; 
+}
+
+a{
+    padding-left: 15px;
+    margin-left: 15px;
+    font-size: 16pt;
+   
+    
+}
+.miFoto{
+    width: 100px;
+    height: 150px;;
+}
+
+@media (min-width:300px) and (max-width:800px)  {
+    .miNombre{
+        font-size: 18pt;
+        margin-right: 1px;
+        
+      
+    }
+}

@@ -1,0 +1,20 @@
+@import '~animate.css/animate.min';
+.cargo{
+    font-size: 20pt; 
+     color:  rgb(27, 148, 218);
+ }
+ 
+
+button{
+    background-color: rgb(27, 148, 218);
+    color: white;
+}
+ 
+@media (min-width:300px) and (max-width:700px)  {
+    .cargo{
+        font-size: 16pt;  
+     }
+     blockquote p{
+        font-size: 12pt;
+     }
+}

@@ -1,0 +1,25 @@
+.contentgreen{
+    background-color: green;
+
+}
+.contentred{
+    background-color: red;
+
+}
+.contentorange{
+    background-color: orange ;
+
+}
+.contentyellow{
+    background-color: yellow;
+
+}
+.contentclaro{
+    background-color: #e2e2e2;
+    color: black;
+
+}.contentoscuro{
+    background-color: #888888;
+    color: white;
+
+}
