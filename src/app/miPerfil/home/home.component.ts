@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+
 
 
 
@@ -11,26 +11,13 @@ import { Router } from '@angular/router';
 export class HomeComponent implements OnInit {
 
 
-  Nombre: string = '';
-  Sexo: string = '';
-  estadoCivil: string = '';
-  Cedula: string = '';
-  Telefono: string = '';
+ 
    
-  constructor(private router: Router) {
+  constructor() {
 
   }
 
-  portafolio() {
-    const data = {
-      Nombre: this.Nombre,
-      Sexo: this.Sexo,
-      estadoCivil: this.estadoCivil,
-      Cedula: this.Cedula,
-      Telefono: this.Telefono,
-    }
-    this.router.navigate(['/Portafolio'], {queryParams: data});
-  }
+ 
 
   ngOnInit(): void {
   }
