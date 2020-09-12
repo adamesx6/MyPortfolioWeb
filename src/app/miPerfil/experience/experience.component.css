@@ -1,11 +1,11 @@
-@import '~animate.css/animate.min';
+
 .cargo{
     font-size: 20pt; 
      color:  rgb(27, 148, 218);
  }
  
 
-button{
+a{
     background-color: rgb(27, 148, 218);
     color: white;
 }

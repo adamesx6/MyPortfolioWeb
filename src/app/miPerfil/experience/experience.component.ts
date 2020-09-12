@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import Swal from 'sweetalert2';
+import { analyzeAndValidateNgModules } from '@angular/compiler';
 
 @Component({
   selector: 'app-experience',
@@ -11,5 +13,5 @@ export class ExperienceComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+ 
 }
