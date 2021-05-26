@@ -16,6 +16,13 @@ p{
   font-family: "Apple Chancery";
 
 }
+.encabezado{
+    color: rgb(93, 168, 211);
+    text-align: center;
+  font-size: 15pt;
+  font-style: italic;
+
+}
 .cardazul{
     background-color:rgb(38, 163, 236);
 }

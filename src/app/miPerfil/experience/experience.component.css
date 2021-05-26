@@ -1,13 +1,19 @@
 
 .cargo{
     font-size: 20pt; 
-     color:  rgb(27, 148, 218);
+     color:  rgb(38, 163, 236);
  }
  
 
 a{
     background-color: rgb(27, 148, 218);
     color: white;
+}
+blockquote{
+    color: rgb(155, 157, 163);
+}
+p{
+    font-size: 15pt;
 }
  
 @media (min-width:300px) and (max-width:700px)  {
