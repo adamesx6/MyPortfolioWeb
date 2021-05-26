@@ -12,10 +12,12 @@ span{
     display: none;
 }
 p{
-  font-style: italic;
+  /* font-style: italic; */
+  font-family: "Apple Chancery";
+
 }
 .cardazul{
-    background-color: rgb(27, 148, 218);
+    background-color:rgb(38, 163, 236);
 }
 .espacio{
     margin-bottom: 2rem;

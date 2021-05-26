@@ -2,6 +2,17 @@
 *{
   /* font-weight:500; */
 }
+
+#presentacion{
+  font-family: "Apple Chancery";
+  font-size: 35pt;
+  /* color: rgb(66, 72, 82); */
+  text-align: center;
+}
+blockquote{
+  font-size: 18pt;
+  color:  rgb(135, 138, 145);
+}
 /* Bounce In */
 .hvr-bounce-in {
     display: inline-block;
