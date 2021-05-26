@@ -6,9 +6,10 @@
 .images{
     width:600px;
 	height:400px;
-	line-height:400px;
+	/* line-height:400px; */
 	margin:0px auto;
-	text-align:center;
+    margin-right: 0%;
+	/* text-align:center; */
 }
 .images img{
     vertical-align:middle;
@@ -21,16 +22,16 @@ blockquote{
     font-size: 18pt;
 }
 #presentacion{
-    font-family: "Goudy Old Style";
-    font-size: 30pt;
-    color: rgb(102, 112, 129);
+    font-family: "Apple Chancery";
+    font-size: 35pt;
+    /* color: rgb(66, 72, 82); */
     text-align: center;
 }
  
 #knowme{
     font-family: "Goudy Old Style";
-    font-size: 40pt;
-    color: rgb(142, 169, 221);
+    font-size: 50pt;
+    color: rgb(66, 72, 82);
     text-align: center;
 }
 
