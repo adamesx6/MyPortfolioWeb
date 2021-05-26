@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import Swal from 'sweetalert2';
-import { analyzeAndValidateNgModules } from '@angular/compiler';
+// import Swal from 'sweetalert2';
+
+// import { ServicesService } from 'src/app/miPerfil/Services/services.service';
 
 @Component({
   selector: 'app-experience',
@@ -9,9 +10,20 @@ import { analyzeAndValidateNgModules } from '@angular/compiler';
 })
 export class ExperienceComponent implements OnInit {
 
-  constructor() { }
+  // estudios: ServicesService[];
+
+  constructor(/*private service: ServicesService*/) { }
 
   ngOnInit(): void {
+    // this.service.getEstudios()
+    // .subscribe(data => {
+    //   this.estudios = data.map(e => {
+    //     const data = e.payload.doc.data();
+    //     const id = e.payload.doc.id;
+    //     return { id, ...data};
+    //   });
+    // });
   }
+
  
 }

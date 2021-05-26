@@ -11,6 +11,15 @@ import { HomeComponent } from './miPerfil/home/home.component';
 import { SkillsComponent } from './miPerfil/skills/skills.component';
 
 
+import {AngularFireModule} from '@angular/fire';
+import {AngularFireDatabaseModule} from '@angular/fire/database';
+import {environment} from '../environments/environment';
+import {AngularFirestoreModule} from '@angular/fire/firestore';
+import {FormsModule} from '@angular/forms'
+
+import {ServicesService} from "../app/miPerfil/Services/services.service";
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,14 +29,19 @@ import { SkillsComponent } from './miPerfil/skills/skills.component';
     ContactMeComponent,
     NavBarComponent,
     HomeComponent,
-    SkillsComponent
+    SkillsComponent,
 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    AppRoutingModule,
+     FormsModule,
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFireDatabaseModule,
+    AngularFirestoreModule
   ],
-  providers: [],
+  providers: [ServicesService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
