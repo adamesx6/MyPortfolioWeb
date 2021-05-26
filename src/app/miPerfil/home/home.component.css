@@ -1,5 +1,5 @@
  span{
-    color: rgb(57, 174, 241);
+    color: rgb(38, 163, 236);
     
 }
  
@@ -14,27 +14,25 @@
     vertical-align:middle;
  }
 #imguno{
-    width: 380px;
-    height: 510px;
+    width: 610px;
+    height: 780px;
 }
-/*
-#imgdos{
-    width: 430px;
-    height: 480px;
-    display: none;
-
-}
-#imgtres{
-    width: 750px;
-    height: 500px;
-    display: none;
-
-} */
 blockquote{
     font-size: 18pt;
 }
+#presentacion{
+    font-family: "Goudy Old Style";
+    font-size: 30pt;
+    color: rgb(102, 112, 129);
+    text-align: center;
+}
  
- 
+#knowme{
+    font-family: "Goudy Old Style";
+    font-size: 40pt;
+    color: rgb(142, 169, 221);
+    text-align: center;
+}
 
  
 @media (min-width:300px) and (max-width:700px)  {
@@ -47,8 +45,8 @@ blockquote{
         text-align:center;
     }
     #imguno{
-        width: 300px;
-        height: 400px;
+        width: 500px;
+        height: 600px;
     }
     .images img{
         vertical-align:middle;
@@ -78,20 +76,7 @@ blockquote{
     .images img{
         vertical-align:middle;
     } 
-    /* #imgdos{
-        width: 200px;
-        height: 300px;
-    } */
-    /* #imgtres{
-        display: none;
-    }
-    #imgdos{
-        display: none;
-    }
-    .images{
-        display:inline-flex;
-        
-    } */
+    
     blockquote{
         font-size: 16pt;
     }

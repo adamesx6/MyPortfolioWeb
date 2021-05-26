@@ -1,6 +1,6 @@
 @import '~animate.css/animate.min';
 *{
-  font-weight:500;
+  /* font-weight:500; */
 }
 /* Bounce In */
 .hvr-bounce-in {
