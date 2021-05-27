@@ -3,6 +3,8 @@ span{
 }
 .card{
     text-align: center;
+    background-color: rgba(121, 120, 120, 0.267)
+
 }
 .card:hover .image{
    display: block;

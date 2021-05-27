@@ -1,75 +1,94 @@
  span{
     color: rgb(38, 163, 236);
-    
+  font-family: "Apple Chancery";
 }
  
 .images{
-    width:600px;
-	height:400px;
+    /* width:600px;
+	height:400px; */
 	/* line-height:400px; */
-	margin:0px auto;
+	/* margin:0px auto; */
     margin-right: 0%;
-	/* text-align:center; */
+	text-align:right;
 }
-.images img{
-    vertical-align:middle;
- }
+
 #imguno{
-    width: 610px;
-    height: 780px;
+    width: 580px;
+    height: 740px;
 }
-
-
- 
-#knowme{
-    font-family: "Goudy Old Style";
-    font-size: 50pt;
-    color: rgb(66, 72, 82);
-    text-align: center;
-}
-
  
 @media (min-width:300px) and (max-width:700px)  {
     
-    .images{
-        width:200px;
-        height:200px;
-        line-height:50px;
-        margin:0px;
-        text-align:center;
-    }
+  
     #imguno{
-        width: 500px;
-        height: 600px;
+        width: 200px;
+        height: 500px;
     }
-    .images img{
-        vertical-align:middle;
-    } 
-   
-    blockquote{
-        font-size: 16pt;
+    .textoinicio{
+        padding-top: 15pt;
     }
-     
-    
+    #presentacion{
+        font-size: 15pt;
+    }
+
 }
 
 
 @media(min-width:300px) and  (max-width:900px) and (orientation: landscape)  {
     #imguno{
         /* margin-left: 9rem; */
-        width: 270px;
-        height: 350px;
+        width: 300px;
+        height: 400px;
     }
     .images{
         width:400px;
         height:400px;
         line-height:400px;
         margin:0px auto;
-        text-align:center;
+        text-align:right;
+    }
+    .container{
+        padding-right: 0;
     }
     .images img{
         vertical-align:middle;
     } 
+    #presentacion{
+        font-size: 20pt;
+        font-style: "Apple Chancery";
+
+    }
+
+    
+    blockquote{
+        font-size: 16pt;
+    }
+
+}
+
+@media(min-height:300px) and  (max-height:800px) and (orientation: landscape)  {
+    #imguno{
+        /* margin-left: 9rem; */
+        width: 300px;
+        height: 400px;
+    }
+    .images{
+        width:400px;
+        height:400px;
+        line-height:400px;
+        margin:0px auto;
+        text-align:right;
+    }
+    .container{
+        padding-right: 0;
+    }
+    .images img{
+        vertical-align:middle;
+    } 
+    #presentacion{
+        font-size: 20pt;
+        font-style: "Apple Chancery";
+    }
     
     blockquote{
         font-size: 16pt;

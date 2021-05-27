@@ -18,6 +18,9 @@ import {AngularFirestoreModule} from '@angular/fire/firestore';
 import {FormsModule} from '@angular/forms'
 
 import {ServicesService} from "../app/miPerfil/Services/services.service";
+import { FooterComponent } from './miPerfil/footer/footer.component';
+
+
 
 
 @NgModule({
@@ -30,6 +33,7 @@ import {ServicesService} from "../app/miPerfil/Services/services.service";
     NavBarComponent,
     HomeComponent,
     SkillsComponent,
+    FooterComponent,
 
   ],
   imports: [
